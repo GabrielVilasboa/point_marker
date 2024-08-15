@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:point_marker/champion_screen.dart';
-import 'package:point_marker/points_screen.dart';
+import 'package:point_marker/view/champion_screen.dart';
+import 'package:point_marker/view/points_screen.dart';
 
 
 void main() {

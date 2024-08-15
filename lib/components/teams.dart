@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:point_marker/champion_screen.dart';
-import 'data.dart';
+import 'package:point_marker/view/champion_screen.dart';
+import '../data/data.dart';
 
 class Team extends StatefulWidget {
   final int value;
@@ -38,6 +38,14 @@ class _TeamState extends State<Team> {
     });
   }
 
+  void _decrementCounter() {
+    setState(() {
+      if (_counter > 0) {
+        _counter--;
+      }
+    });
+  }
+
   @override
   void initState() {
     super.initState();
@@ -52,6 +60,7 @@ class _TeamState extends State<Team> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
+        //Player Name
         SizedBox(
           width: 100,
           child: TextField(
@@ -92,10 +101,39 @@ class _TeamState extends State<Team> {
                 ],
               )),
         ),
-        ElevatedButton(
-          onPressed: _incrementCounter,
-          style: ElevatedButton.styleFrom(backgroundColor: Colors.red[900]),
-          child: Text("+ ${widget.value}", style: const TextStyle(color: Colors.white),),
+        Padding(
+          padding: const EdgeInsets.only(right: 18),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              ElevatedButton(
+                onPressed: _decrementCounter,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.black,
+                  shape: const CircleBorder(),
+                  fixedSize: const Size(18, 18),
+                  padding: EdgeInsets.zero,
+                  minimumSize: Size.zero,
+                  alignment: Alignment.center,
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap
+                ),
+                child: const Text(
+                  "-",
+                  style: TextStyle(color: Colors.white, fontSize: 10),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              ElevatedButton(
+                onPressed: _incrementCounter,
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.red[900]),
+                child: Text(
+                  "+ ${widget.value}",
+                  style: const TextStyle(color: Colors.white),
+                ),
+              ),
+            ],
+          ),
         )
       ],
     );

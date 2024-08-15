@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:point_marker/data.dart';
-import 'teams.dart';
+import 'package:point_marker/data/data.dart';
+import '../components/teams.dart';
 
 class PointsScreen extends StatefulWidget {
   const PointsScreen({

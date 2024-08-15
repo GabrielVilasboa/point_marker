@@ -2,7 +2,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:confetti/confetti.dart';
 import 'dart:math' as math;
-import 'package:point_marker/points_screen.dart';
+import 'package:point_marker/view/points_screen.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class ChampionScreen extends StatefulWidget {
