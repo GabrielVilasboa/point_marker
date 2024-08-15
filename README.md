@@ -13,8 +13,8 @@ Marcador de Pontos de Truco é um aplicativo simples e intuitivo desenvolvido pa
 
 ![Screenshot 1](assets/screenshots/screenshot_1.jpg)
 ![Screenshot 1](assets/screenshots/screenshot_2.jpg)
-![Screenshot 1](assets/screenshots/screenshot_3.jpg)
 ![Screenshot 1](assets/screenshots/screenshot_4.jpg)
+![Screenshot 1](assets/screenshots/screenshot_3.jpg)
 
 ## Tecnologias Utilizadas
 
@@ -28,7 +28,7 @@ Para instalar o aplicativo em seu dispositivo, siga as instruções abaixo:
 
 ### Android
 
-1. Baixe o APK do aplicativo a partir do [link de download](#).
+1. Baixe o APK do aplicativo a partir do [link de download via dropbox](https://www.dropbox.com/scl/fi/dkjy90a9d0lzr0o7lj0fo/point_marker.apk?rlkey=7gyr87qb8l8qk3nfx462l3aga&st=m8l9wbs5&dl=0).
 2. Instale o APK em seu dispositivo Android.
 3. Abra o aplicativo e comece a marcar os pontos das suas partidas de truco!
 
