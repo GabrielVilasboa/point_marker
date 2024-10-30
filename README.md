@@ -11,10 +11,8 @@ Marcador de Pontos de Truco é um aplicativo simples e intuitivo desenvolvido pa
 
 ## Screenshots
 
-![Screenshot 1](assets/screenshots/screenshot_1.jpg)
-![Screenshot 1](assets/screenshots/screenshot_2.jpg)
-![Screenshot 1](assets/screenshots/screenshot_4.jpg)
-![Screenshot 1](assets/screenshots/screenshot_3.jpg)
+<img src="assets/screenshots/screenshot_1.jpg" alt="Screenshot 1" width="300"/>    <img src="assets/screenshots/screenshot_2.jpg" alt="Screenshot 2" width="300"/>
+<img src="assets/screenshots/screenshot_4.jpg" alt="Screenshot 4" width="300"/>    <img src="assets/screenshots/screenshot_3.jpg" alt="Screenshot 3" width="300"/>
 
 ## Tecnologias Utilizadas
 
